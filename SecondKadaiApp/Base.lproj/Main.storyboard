@@ -25,7 +25,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="名前を入力してください" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u4i-04-XSe">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="名前を入力してください" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u4i-04-XSe">
                                 <rect key="frame" x="200" y="190" width="200" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="200" id="ZFD-AQ-XQo"/>
@@ -80,7 +80,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q44-Ja-hgO">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q44-Ja-hgO">
                                 <rect key="frame" x="200" y="190" width="200" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="200" id="s3S-fa-9wg"/>
@@ -102,6 +102,8 @@
                             <constraint firstItem="Q44-Ja-hgO" firstAttribute="centerX" secondItem="8OJ-lk-4Mb" secondAttribute="centerX" id="1bh-FU-9Rn"/>
                             <constraint firstItem="Q44-Ja-hgO" firstAttribute="centerY" secondItem="8OJ-lk-4Mb" secondAttribute="centerY" constant="-50" id="7kc-W1-7ct"/>
                             <constraint firstItem="73H-Rc-t3R" firstAttribute="centerY" secondItem="8OJ-lk-4Mb" secondAttribute="centerY" constant="-50" id="HxP-my-qot"/>
+                            <constraint firstItem="73H-Rc-t3R" firstAttribute="centerX" secondItem="8OJ-lk-4Mb" secondAttribute="centerX" id="Izu-Bq-DS3"/>
+                            <constraint firstItem="Q44-Ja-hgO" firstAttribute="centerX" secondItem="8OJ-lk-4Mb" secondAttribute="centerX" id="MBK-5f-Q4Z"/>
                             <constraint firstItem="Q44-Ja-hgO" firstAttribute="centerX" secondItem="8OJ-lk-4Mb" secondAttribute="centerX" id="Mtx-dw-Pvm"/>
                             <constraint firstItem="73H-Rc-t3R" firstAttribute="centerX" secondItem="8OJ-lk-4Mb" secondAttribute="centerX" id="YkA-Sc-26F"/>
                             <constraint firstItem="Q44-Ja-hgO" firstAttribute="centerY" secondItem="8OJ-lk-4Mb" secondAttribute="centerY" constant="-100" id="Z5G-XT-St0"/>
